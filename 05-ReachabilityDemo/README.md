@@ -1,0 +1,2 @@
+- Reachability的Github：https://github.com/tonymillion/Reachability.
+- 支持Cocoapod.
