@@ -129,13 +129,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24134E77184C28760062A115 /* libzbar.a in Frameworks */,
 				24134E83184C28AD0062A115 /* libiconv.dylib in Frameworks */,
 				24134E81184C289D0062A115 /* CoreVideo.framework in Frameworks */,
 				24134E7F184C28950062A115 /* CoreMedia.framework in Frameworks */,
 				2427668E18486A3C00B2E158 /* AVFoundation.framework in Frameworks */,
 				24134E7D184C28890062A115 /* QuartzCore.framework in Frameworks */,
 				2427665E184869F900B2E158 /* CoreGraphics.framework in Frameworks */,
-				24134E77184C28760062A115 /* libzbar.a in Frameworks */,
 				24276660184869F900B2E158 /* UIKit.framework in Frameworks */,
 				2427665C184869F900B2E158 /* Foundation.framework in Frameworks */,
 			);
@@ -516,7 +516,7 @@
 				PROVISIONING_PROFILE = "81329AEC-F456-4DDF-A86E-644C04ABC8CA";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "armv7 armv6";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -553,7 +553,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv7 armv6";
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -570,11 +570,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					./ZBarSDK,
+					"$(PROJECT_DIR)/ZBarSDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "81329AEC-F456-4DDF-A86E-644C04ABC8CA";
-				VALID_ARCHS = "armv7 armv6";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -592,11 +593,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					./ZBarSDK,
+					"$(PROJECT_DIR)/ZBarSDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "81329AEC-F456-4DDF-A86E-644C04ABC8CA";
-				VALID_ARCHS = "armv7 armv6";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

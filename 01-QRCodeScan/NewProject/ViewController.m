@@ -60,6 +60,8 @@
     reader.showsHelpOnFail = NO;
     reader.scanCrop = CGRectMake(0.1, 0.2, 0.8, 0.8);//扫描的感应框
     ZBarImageScanner * scanner = reader.scanner;
+
+    // TODO: 设置识别的条形码或二维码的类型 for iOS7-
     [scanner setSymbology:ZBAR_I25
                    config:ZBAR_CFG_ENABLE
                        to:0];

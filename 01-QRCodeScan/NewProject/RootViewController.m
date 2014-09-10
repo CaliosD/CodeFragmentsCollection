@@ -112,8 +112,8 @@
         [_session addOutput:self.output];
     }
     
-    // 条码类型 AVMetadataObjectTypeQRCode
-    _output.metadataObjectTypes =@[AVMetadataObjectTypeQRCode, AVMetadataObjectTypeAztecCode];
+    // TODO: 设置识别的条形码或二维码的类型 for iOS7+
+    _output.metadataObjectTypes =@[AVMetadataObjectTypeQRCode, AVMetadataObjectTypeEAN13Code];
     
     // Preview
     _preview =[AVCaptureVideoPreviewLayer layerWithSession:self.session];
