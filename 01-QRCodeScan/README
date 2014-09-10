@@ -1,7 +1,8 @@
-- 本demo实现扫描二维码、条形码功能。
+- 本demo实现扫描二维码、条形码功能，可在demo的TODO处增减支持识别的条码类型。
 
 - ViewController为self.window.rootViewController。
 
 - 调用相机扫描时，如果是iOS7以下，则使用ZBar类库；如果是iOS7及以上，则调用AVFoundation库的方法(RootViewController)。
 
 - More about AVFoundation: https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/AVFoundationPG/Articles/00_Introduction.html#//apple_ref/doc/uid/TP40010188
+
