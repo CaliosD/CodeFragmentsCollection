@@ -1,0 +1,16 @@
+/*
+  Localizable.strings
+  ShareAndSend
+
+  Created by Lilac on 9/15/14.
+  Copyright (c) 2014 TZ. All rights reserved.
+*/
+
+"CELL_LOGIN_N_REGISTER" = "登录/注册";
+"CELL_SHARES" = "四分五享";
+"CELL_AUTH_N_CANCEL" = "授权/取消";
+"BTN_MOBILE_REGISTER" = "手机号注册";
+"BTN_SHARES" = "各种分享";
+
+
+"CELL_UNAUTH" = "尚未授权";

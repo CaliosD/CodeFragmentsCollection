@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BE8312CC-306D-41D4-BD7F-558E8EE75F5A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ShareAndSend</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A047404F-2D2A-4401-AA7E-9F33CCA55E3F</key>
+		<string>https://github.com/Lilacxyz/CodeFragmentsCollection.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ShareAndSend/ShareAndSend.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A047404F-2D2A-4401-AA7E-9F33CCA55E3F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Lilacxyz/CodeFragmentsCollection.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A047404F-2D2A-4401-AA7E-9F33CCA55E3F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A047404F-2D2A-4401-AA7E-9F33CCA55E3F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CodeFragmentsCollection</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  ShareAndSend
+
+  Created by Lilac on 9/15/14.
+  Copyright (c) 2014 TZ. All rights reserved.
+*/
+
+"CELL_LOGIN_N_REGISTER" = "Login n Register";
+"CELL_SHARES" = "All the shares";
+"CELL_AUTH_N_CANCEL" = "Auth n cancle";
+"BTN_MOBILE_REGISTER" = "Mobile register";
+"BTN_SHARES" = "Shares";
+
+
+"CELL_UNAUTH" = "Not authorized";
