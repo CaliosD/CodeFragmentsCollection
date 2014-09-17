@@ -130,7 +130,7 @@ static UIAlertView* _alert1=nil;
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [[_data objectAtIndex:section] count];
+    return [_data[section] count];
 }
 
 
@@ -143,7 +143,7 @@ static UIAlertView* _alert1=nil;
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellIdentifier];
     }
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.textLabel.text = [[[_data objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] valueForKey:@"title"];
+    cell.textLabel.text = [_data[indexPath.section][indexPath.row] valueForKeyPath:@"title"];
     
     if (indexPath.section == 0 && indexPath.row == 0) {
         if (_profileImg == nil) {
@@ -156,7 +156,7 @@ static UIAlertView* _alert1=nil;
         [cell.contentView addSubview:profileImgView];
 
     }else{
-        cell.detailTextLabel.text = [[[_data objectAtIndex:indexPath.section] objectAtIndex:indexPath.row] valueForKey:@"description"];
+        cell.detailTextLabel.text = [_data[indexPath.section][indexPath.row] valueForKey:@"description"];
     }
     
     return cell;
@@ -228,7 +228,7 @@ static UIAlertView* _alert1=nil;
 
 -(void)makeACall
 {
-    _telNO = [[[_data objectAtIndex:0] objectAtIndex:3]valueForKey:@"description"];
+    _telNO = [_data[0][3] valueForKey:@"description"];
     NSString *telStr = [NSString stringWithFormat:@"telprompt://%@",_telNO];
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:telStr]];
 }
@@ -297,7 +297,7 @@ static UIAlertView* _alert1=nil;
         UITextField *nickField = [alertView textFieldAtIndex:0];
         _nickName = nickField.text;
         
-        [[[_data objectAtIndex:0] objectAtIndex:1] setValue:_nickName forKey:@"description"];
+        [_data[0][1] setValue:_nickName forKey:@"description"];
         [self.tableView reloadData];
     }
 }
@@ -347,8 +347,8 @@ static UIAlertView* _alert1=nil;
 -(void)sexPickerClickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if (buttonIndex == 0 || buttonIndex == 1) {
-        _sex = [_sexArray objectAtIndex:buttonIndex];
-        [[[_data objectAtIndex:0] objectAtIndex:2] setValue:_sex forKey:@"description"];
+        _sex = _sexArray[buttonIndex];
+        [_data[0][2] setValue:_sex forKey:@"description"];
         [self.tableView reloadData];
     }
 }
@@ -391,7 +391,7 @@ static UIAlertView* _alert1=nil;
             NSString *phoneNumber = (__bridge NSString *)ABMultiValueCopyValueAtIndex(multiPhones, i);
             NSLog(@"PHONE : %@", phoneNumber);
             _mainContact = phoneNumber;
-            [[[_data objectAtIndex:1] objectAtIndex:0] setValue:_mainContact forKey:@"description"];
+            [_data[1][0] setValue:_mainContact forKey:@"description"];
             [self.tableView reloadData];
         }
     }
