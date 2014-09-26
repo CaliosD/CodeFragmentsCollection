@@ -3,7 +3,7 @@
 
 - 如果使用AFNetworking（>=2.4.0）中的AFNetworkReachabilityManager来实现此功能也是类似的。
 
-```smalltalk
+```objc
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     ……
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:_AFNetworkingReachabilityDidChangeNotification_ object:nil];
