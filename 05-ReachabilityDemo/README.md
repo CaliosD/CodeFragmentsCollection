@@ -5,11 +5,11 @@
 
 ```objc
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-    ……
+    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:_AFNetworkingReachabilityDidChangeNotification_ object:nil];
     self.reachabilityManager = [AFNetworkReachabilityManager sharedManager];
     [self.reachabilityManager startMonitoring];
-    ……
+    
 }
 
 - (void)reachabilityChanged: (NSNotification *)note
