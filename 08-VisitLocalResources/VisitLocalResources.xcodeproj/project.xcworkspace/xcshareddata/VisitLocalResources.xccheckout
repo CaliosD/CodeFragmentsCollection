@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>52172755-9267-461C-BF8C-A0C7D7B67FFE</string>
+	<string>97A4BCDC-846B-4347-9E54-D4EAC8BDF006</string>
 	<key>IDESourceControlProjectName</key>
 	<string>VisitLocalResources</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,14 +14,14 @@
 		<string>https://github.com/Lilacxyz/CodeFragmentsCollection.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>VisitLocalResources/VisitLocalResources.xcodeproj/project.xcworkspace</string>
+	<string>08-VisitLocalResources/VisitLocalResources.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A047404F-2D2A-4401-AA7E-9F33CCA55E3F</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Lilacxyz/CodeFragmentsCollection.git</string>
+	<string>ssh://github.com/easy2mobile.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

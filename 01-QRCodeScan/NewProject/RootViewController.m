@@ -38,8 +38,7 @@
     labIntroudction.backgroundColor = [UIColor clearColor];
     labIntroudction.numberOfLines=2;
     labIntroudction.textColor=[UIColor whiteColor];
-    labIntroudction.text=@"将二维码图像置于矩形方框内，离手机摄像头10CM左右，系统会自动识别。";
-    [self.view addSubview:labIntroudction];
+     [self.view addSubview:labIntroudction];
     
     
     UIImageView * imageView = [[UIImageView alloc]initWithFrame:CGRectMake(10, 100, 300, 300)];
@@ -53,10 +52,6 @@
     [self.view addSubview:_line];
     
     timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(animation1) userInfo:nil repeats:YES];
-    
-   
-
-
 }
 -(void)animation1
 {

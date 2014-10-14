@@ -9,6 +9,7 @@
 #import "LDRootViewController.h"
 #import <AddressBookUI/AddressBookUI.h>
 #import <SMS_SDK/SMS_SDK.h>
+#import "SJAvatarBrowser.h"
 
 
 enum TableRowSelected
@@ -153,6 +154,12 @@ static UIAlertView* _alert1=nil;
         profileImgView.image = _profileImg;
         profileImgView.layer.masksToBounds = YES;
         profileImgView.layer.cornerRadius = 5.f;
+        profileImgView.userInteractionEnabled = YES;
+        UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapProfileImg:)];
+        tapGesture.numberOfTapsRequired = 1;
+        tapGesture.numberOfTouchesRequired = 1;
+        tapGesture.delegate = self;
+        [profileImgView addGestureRecognizer:tapGesture];
         [cell.contentView addSubview:profileImgView];
 
     }else{
@@ -207,6 +214,11 @@ static UIAlertView* _alert1=nil;
     UIActionSheet *actionSheet = [[UIActionSheet alloc]initWithTitle:nil delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"拍照",@"从手机相册选择", nil];
     actionSheet.tag = IMGPICKER_ACTION_SHEET;
     [actionSheet showInView:self.view];
+}
+
+- (void)tapProfileImg:(UITapGestureRecognizer*)sender
+{
+    [SJAvatarBrowser showImage:(UIImageView*)sender.view];
 }
 
 -(void)showNicknameAlert
@@ -290,6 +302,18 @@ static UIAlertView* _alert1=nil;
     
 }
 */
+
+#pragma mark UIGestureRecognizer delegate
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
+{
+    UIView *view = [touch view];
+    if ([view isKindOfClass:[UIImageView class]]) {
+        return YES;
+    }else{
+        return NO;
+    }
+}
+
 #pragma mark UIAlertView delegate
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {

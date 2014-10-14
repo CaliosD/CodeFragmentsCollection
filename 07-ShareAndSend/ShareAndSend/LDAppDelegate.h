@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-#import "WXApi.h"
-#import <RennSDK/RennSDK.h>
+//#import "WXApi.h"
+//#import <RennSDK/RennSDK.h>
 #import <ShareSDK/ShareSDK.h>
-#import <TencentOpenAPI/QQApiInterface.h>
-#import <TencentOpenAPI/TencentOAuth.h>
-#import <SMS_SDK/SMS_SDK.h>
+//#import <TencentOpenAPI/QQApiInterface.h>
+//#import <TencentOpenAPI/TencentOAuth.h>
+//#import <SMS_SDK/SMS_SDK.h>
 
 @interface LDAppDelegate : UIResponder <UIApplicationDelegate>
 

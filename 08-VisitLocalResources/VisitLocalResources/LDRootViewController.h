@@ -12,6 +12,7 @@
 UIActionSheetDelegate,
 UIImagePickerControllerDelegate,
 UINavigationControllerDelegate,
-UIAlertViewDelegate>
+UIAlertViewDelegate,
+UIGestureRecognizerDelegate>
 
 @end

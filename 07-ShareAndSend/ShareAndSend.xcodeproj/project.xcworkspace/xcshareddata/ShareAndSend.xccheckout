@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BE8312CC-306D-41D4-BD7F-558E8EE75F5A</string>
+	<string>C35578A7-A58B-4566-A574-2B6B25BD98C4</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ShareAndSend</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,14 +14,14 @@
 		<string>https://github.com/Lilacxyz/CodeFragmentsCollection.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ShareAndSend/ShareAndSend.xcodeproj/project.xcworkspace</string>
+	<string>07-ShareAndSend/ShareAndSend.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A047404F-2D2A-4401-AA7E-9F33CCA55E3F</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Lilacxyz/CodeFragmentsCollection.git</string>
+	<string>ssh://github.com/easy2mobile.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

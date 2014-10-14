@@ -27,6 +27,7 @@
 		1D9EBD2419C82F7800FB03BB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9EBD2319C82F7800FB03BB /* libz.dylib */; };
 		1D9EBD2619C82F8400FB03BB /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9EBD2519C82F8400FB03BB /* libicucore.dylib */; };
 		1D9EBD2819C8328B00FB03BB /* defaultIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D9EBD2719C8328B00FB03BB /* defaultIcon.png */; };
+		1DC50D5219ED2895009B96A4 /* SJAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC50D5119ED2895009B96A4 /* SJAvatarBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		1D9EBD2519C82F8400FB03BB /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		1D9EBD2719C8328B00FB03BB /* defaultIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultIcon.png; sourceTree = "<group>"; };
 		1D9EBD3319C845BC00FB03BB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		1DC50D5019ED2895009B96A4 /* SJAvatarBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SJAvatarBrowser.h; path = Utility/SJAvatarBrowser.h; sourceTree = SOURCE_ROOT; };
+		1DC50D5119ED2895009B96A4 /* SJAvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SJAvatarBrowser.m; path = Utility/SJAvatarBrowser.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				1D72B0DE19C6EC7100DADA9D /* LDAppDelegate.m */,
 				1D9EBD0B19C82A3600FB03BB /* LDRootViewController.h */,
 				1D9EBD0C19C82A3600FB03BB /* LDRootViewController.m */,
+				1DC50D5019ED2895009B96A4 /* SJAvatarBrowser.h */,
+				1DC50D5119ED2895009B96A4 /* SJAvatarBrowser.m */,
 				1D72B0E019C6EC7100DADA9D /* Images.xcassets */,
 				1D72B0D519C6EC7100DADA9D /* Supporting Files */,
 			);
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC50D5219ED2895009B96A4 /* SJAvatarBrowser.m in Sources */,
 				1D72B0DF19C6EC7100DADA9D /* LDAppDelegate.m in Sources */,
 				1D9EBD0D19C82A3600FB03BB /* LDRootViewController.m in Sources */,
 				1D72B0DB19C6EC7100DADA9D /* main.m in Sources */,
