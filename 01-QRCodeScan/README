@@ -4,5 +4,7 @@
 
 - 调用相机扫描时，如果是iOS7以下，则使用ZBar类库；如果是iOS7及以上，则调用AVFoundation库的方法(RootViewController)。
 
+- 如果模拟器编译报错，可删除ZBar类库之后重新添加最新版本。
+
 - More about AVFoundation: https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/AVFoundationPG/Articles/00_Introduction.html#//apple_ref/doc/uid/TP40010188
 
